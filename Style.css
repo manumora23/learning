@@ -5,6 +5,11 @@
   box-sizing: border-box;
 }
 
+:root {
+  --primary-color: blue;
+  --font-title: "Courier New";
+  --font-text: "Times New Roman";
+}
 /* -- esto es para hacerlo general --- */
 /* li{
     list-style: none;
@@ -13,7 +18,7 @@
 el display flex es siempre para la lista, o para que tipo de element_,81º<AUYJ(//////Uo---- */
 
 body {
-  font-family: "montserrat";
+  font-family: "Montserrat";
 }
 
 .logo {
@@ -107,6 +112,6 @@ body {
 }
 
 .button:hover {
-  background-color: white;
+  background-color: var(--primary-color);
   color: black;
 }
